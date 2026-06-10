@@ -21,7 +21,7 @@ This project demonstrates the implementation of a PIZZA SALES  using SQL. It inc
 ### 1. Database Setup
 
 - **Database Creation**: Created a database named 'PIZZAHUT-PROJECT3'.
-![PIZZA SALES](images/pizza-3010062_640.jpg)
+
 - **Table Creation**: Created tables for order_details, orders, pizza_types, pizzas . Each table includes relevant columns and relationships.
 
 ```sql
