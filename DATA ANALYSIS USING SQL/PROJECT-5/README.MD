@@ -20,11 +20,11 @@ Dataset Information:- The project uses a table named zepto, containing product-l
 
 ##Table Schema:-
 
-Column Name	 Data Type  	Description
-sku_id	SERIAL (Primary Key) Unique product identifier
-category	VARCHAR(400)	 Product category
-name	VARCHAR(100)	 Product name
-mrp	INTEGER 	Maximum Retail Price
+Column Name      	 Data Type              	                              Description
+sku_id	             SERIAL (Primary Key)                                    Unique product identifier
+category	         VARCHAR(400)                                        	 Product category
+name	             VARCHAR(100)	                                         Product name
+mrp	                  INTEGER 	                                              Maximum Retail Price
 discount_percent	INTEGER 	Discount percentage offered   
 available_quantity	INTEGER 	Available stock quantity
 discounted_selling_price	INTEGER / NUMERIC	 Selling price after discount
