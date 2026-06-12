@@ -1,6 +1,6 @@
-###🛒 Zepto E-commerce SQL Project
+# 🛒 Zepto E-commerce SQL Project
 
-Overview
+## Overview
 
 This project focuses on analyzing product and inventory data from Zepto, an online grocery delivery platform. The analysis was performed using SQL to explore the dataset, clean inconsistencies, and generate business insights that can support decision-making related to pricing, inventory management, and category performance.
 
