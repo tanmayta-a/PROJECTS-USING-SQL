@@ -9,6 +9,7 @@ The project demonstrates practical SQL skills, including data exploration, data 
 ##Objectives
 
 Explore the Zepto product dataset to understand its structure and quality.
+
 Identify and resolve data issues that could affect analysis.
 Analyze stock availability and product distribution.
 Evaluate discount strategies across different product categories.
