@@ -15,15 +15,15 @@ The database consists of multiple interconnected entities such as customers, pro
 ## **Business Objectives**
 The project aims to answer critical business questions such as:
 
--Which products generate the highest revenue?
--How much revenue does each product category contribute?
--What is the average spending behavior of customers?
--How are monthly sales trending over time?
--Which customers have never made a purchase?
--Which product categories perform poorly in different states?
--Who are the most valuable customers based on lifetime spending?
--Which products require inventory replenishment?
--How efficiently are orders being shipped and delivered?
+- Which products generate the highest revenue?
+- How much revenue does each product category contribute?
+- What is the average spending behavior of customers?
+- How are monthly sales trending over time?
+- Which customers have never made a purchase?
+- Which product categories perform poorly in different states?
+- Who are the most valuable customers based on lifetime spending?
+- Which products require inventory replenishment?
+- How efficiently are orders being shipped and delivered?
 
 ---
 
@@ -32,7 +32,7 @@ The project aims to answer critical business questions such as:
 An ERD is included to visually represent the database schema and table relationships.
 
 
-![ERD Scratch](https://github.com/tanmayta-a/PROJECTS-USING-SQL/blob/main/DATA%20ANALYSIS%20USING%20SQL/PROJECT-7/ERD-P-7.pgerd)
+![ERD Scratch](https://github.com/tanmayta-a/PROJECTS-USING-SQL/blob/main/DATA%20ANALYSIS%20USING%20SQL/PROJECT-7/ERD)
 
 ---
 ## **Database Setup & Design**
@@ -163,11 +163,11 @@ Null values were handled based on their context:
 ---
 
 ## **Tools & Technologies**
--PostgreSQL
--SQL
--Relational Database Management System (RDBMS)
--Data Analytics
--Business Intelligence Concepts
+- PostgreSQL
+- SQL
+- Relational Database Management System (RDBMS)
+- Data Analytics
+- Business Intelligence Concepts
 
 ## **Solving Business Problems**
 
@@ -403,9 +403,7 @@ WHERE
 TASK-9: Shipping Delays
 Identify orders where the shipping date is later than 3 days after the order date.
 Challenge: Include customer, order details, and delivery provider.
-
 ```sql
-
 SELECT
 	C.*,
 	O.*,
@@ -422,8 +420,8 @@ WHERE
 TASK-10: Payment Success Rate 
 Calculate the percentage of successful payments across all orders.
 Challenge: Include breakdowns by payment status (e.g., failed, pending).
-```sql
 
+```sql
 SELECT
 	P.PAYMENT_STATUS,
 	COUNT(*) AS TOTAL_COUNT,
@@ -785,7 +783,7 @@ TASK-20: Final Task
 create a function as soon as the product is sold the same quantity should reduced from inventory table
 after adding any sales records it should update the stock in the inventory table based on the product and qty purchased .
 -- 
-```
+```sql
 
 SELECT
 	*
