@@ -21,8 +21,6 @@ This repository contains the complete project, from database setup and data clea
 5.  Data Cleaning
 6.  Business Problems and SQL Solutions
 7.  Conclusion
-8.  Contributors
-9.  Disclaimer
 
 ## Project Structure
 
