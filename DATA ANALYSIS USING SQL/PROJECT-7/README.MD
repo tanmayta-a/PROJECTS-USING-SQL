@@ -15,15 +15,15 @@ The database consists of multiple interconnected entities such as customers, pro
 ## **Business Objectives**
 The project aims to answer critical business questions such as:
 
-Which products generate the highest revenue?
-How much revenue does each product category contribute?
-What is the average spending behavior of customers?
-How are monthly sales trending over time?
-Which customers have never made a purchase?
-Which product categories perform poorly in different states?
-Who are the most valuable customers based on lifetime spending?
-Which products require inventory replenishment?
-How efficiently are orders being shipped and delivered?
+-Which products generate the highest revenue?
+-How much revenue does each product category contribute?
+-What is the average spending behavior of customers?
+-How are monthly sales trending over time?
+-Which customers have never made a purchase?
+-Which product categories perform poorly in different states?
+-Who are the most valuable customers based on lifetime spending?
+-Which products require inventory replenishment?
+-How efficiently are orders being shipped and delivered?
 
 ---
 
@@ -163,11 +163,11 @@ Null values were handled based on their context:
 ---
 
 ## **Tools & Technologies**
-PostgreSQL
-SQL
-Relational Database Management System (RDBMS)
-Data Analytics
-Business Intelligence Concepts
+-PostgreSQL
+-SQL
+-Relational Database Management System (RDBMS)
+-Data Analytics
+-Business Intelligence Concepts
 
 ## **Solving Business Problems**
 
@@ -403,6 +403,7 @@ WHERE
 TASK-9: Shipping Delays
 Identify orders where the shipping date is later than 3 days after the order date.
 Challenge: Include customer, order details, and delivery provider.
+
 ```sql
 
 SELECT
@@ -416,7 +417,7 @@ FROM
 	JOIN SHIPPING AS S ON S.ORDER_ID = O.ORDER_ID
 WHERE
 	S.SHIPPING_DATE - O.ORDER_DATE > 3
-		   ```
+```
 
 TASK-10: Payment Success Rate 
 Calculate the percentage of successful payments across all orders.
@@ -864,7 +865,8 @@ CALL ADD_SALES (25002, 2, 5, 25004, 1, 14);
 
 ## **Project Outcomes**
 Successfully designed and analyzed an end-to-end e-commerce database to generate actionable business insights across sales, customer behavior, inventory management, and operational performance using advanced SQL techniques. The project demonstrates strong proficiency in database design, data analysis, and business problem-solving using PostgreSQL.
-```
+
+---
 
 ## **Conclusion**
 
