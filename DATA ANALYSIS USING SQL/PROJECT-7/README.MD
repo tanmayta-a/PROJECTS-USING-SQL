@@ -778,11 +778,10 @@ WHERE
 	LS.REVENUE > CS.REVENUE
 ```
 
-TASK-20: Final Task
--- Store Procedure
+TASK-20: Final Task-  Store Procedure
 create a function as soon as the product is sold the same quantity should reduced from inventory table
 after adding any sales records it should update the stock in the inventory table based on the product and qty purchased .
--- 
+
 ```sql
 
 SELECT
