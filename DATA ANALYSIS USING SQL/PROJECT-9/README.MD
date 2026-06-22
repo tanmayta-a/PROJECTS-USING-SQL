@@ -228,8 +228,8 @@ To improve query performance, we carried out the following optimization process:
 
 - **Performance Analysis After Index Creation**
     - After creating the index, we ran the same query again and observed significant improvements in performance:
-        - Execution time (E.T.): **0.115 ms**
-        - Planning time (P.T.): **0.167 ms**
+        - Execution time (E.T.): **0.197 ms**
+        - Planning time (P.T.): **0.347 ms**
     - Below is the **screenshot** of the `EXPLAIN` result after index creation:
       ![EXPLAIN After Index](https://github.com/tanmayta-a/PROJECTS-USING-SQL/blob/main/DATA%20ANALYSIS%20USING%20SQL/PROJECT-9/query%20plan%20after.png)
 
@@ -240,7 +240,7 @@ To improve query performance, we carried out the following optimization process:
       ![Performance Graph](https://github.com/tanmayta-a/PROJECTS-USING-SQL/blob/main/DATA%20ANALYSIS%20USING%20SQL/PROJECT-9/graph-before.png)
       ![Performance Graph](https://github.com/tanmayta-a/PROJECTS-USING-SQL/blob/main/DATA%20ANALYSIS%20USING%20SQL/PROJECT-9/graph-after.png)
 
-This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
+      This optimization shows how indexing can drastically reduce query time, improving the overall performance of our database operations in the Spotify project.
 ---
 
 ## Technology Stack
